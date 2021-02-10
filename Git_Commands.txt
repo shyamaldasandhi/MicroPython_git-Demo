@@ -1,0 +1,42 @@
+1. git help
+2. git help config
+3. git config --global user.name "SHYAMAL DASANDHI"
+4. git config --global user.email "shyamaldasandhi@gmail.com"
+5. git config --global --list
+6. cat ~/.gitconfig
+7. cd "D:\Professional\Projects"
+8. cd "D:\Professional\Projects\Projects 2021\Git_Project_1"
+9. git init git-demo
+10.ls
+11.cd git-demo
+12.ls -a
+13.cd "D:\Workspace\Micropython_with_ESP8266\Python_Firmware"
+14.git status
+15.git add README.md
+16.git commit -m "Initial Commit"
+17.clear
+18.git commit -am "Adding clarity"
+19.git add .   ////add all files to staging are
+20.git reset HEAD README.md
+21.git checkout -- README.md
+22.git log
+23.git log --oneline --graph --decorate --color
+24.git rm wastelog.log
+25.git commit -m "Removed wastelog.log from project"
+26.notepad .gitignore  /// to creat ignore file from notepad here add file names and foldernames to be ignored by git repository
+27.mkdir foldername // to creat folder via git
+28.cd ~ // to go into root directory of git
+29.cd .ssh
+30.mkdir .ssh
+31.cd .ssh
+32.ssh-keygen -t rsa -C "shyamaldasandhi@gmail.com" /// to generate SSH key
+33.ls -al
+34.notepad id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0jYLTTJrPp72WC75MwdmDpU+lB5Ih4XF9nDu9hMNW21a+4EIgMef0AEgz928lT8Kc5xZH3gPSc++N7gY4MotHqWHz43srPeENGEBs4sYTNAaAELR5vLZ7GaDi1BnvoiGW9dAQ78OrhkxIAPQUtgb/uCtNMMenLTgHKmZCxvzYgLxASPzNYS9WxB8mngM5memPTd/X8BB6jFi4CMXNmXXNjIr+aEwvoKNOw2p5mo1EVCjvxyTXFHIsIp5tSByh8zdcNwR1jV0Zt5aA/O8kIkaM3GH/GhCk/xSX9rg0ajiP4t/mfi/WIebuyxq/wlnCSL1evnlIX2nsCnESlJNXm17UpXUMUPHL5xLgnmdHE6HR3NN3Dq2N2+7iKfwSjwLk7+oMtP/X05BuM5FUp8Hbb/SfLuSd8vtbEe+P/+ejXYd3AOoIruJsExsV678/V45droMPYzy9cT53VECV/T0bLg7l3aStm8xAH0aZff7+CZIPauVaosE1MBWuKGnZQsC1i/U= shyamaldasandhi@gmail.com
+35.ssh -T git@github.com
+36.git remote add origin https://github.com/shyamaldasandhi/MicroPython_git-Demo.git
+37.git push -u origin master
+38.git push origin master
+39.git commit -am "updating Readme.md file for Github"
+40.git pull origin master
+41.git push origin master
